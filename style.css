@@ -59,10 +59,8 @@ body {
   background: transparent;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+ul li {
+  color: var(--grey);
 }
 
 /*************************
@@ -260,7 +258,14 @@ header {
   z-index: 5;
 }
 
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 header ul li {
+  color: var(--light-grey);
   float: left;
   font-weight: 400;
   padding-right: 20px;
