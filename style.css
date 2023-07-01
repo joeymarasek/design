@@ -254,7 +254,7 @@ button:hover span::before {
 
 header {
   padding: 1% 3%;
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 5;
@@ -278,6 +278,10 @@ section {
 
 section:last-child {
   border-bottom: none;
+}
+
+.inner {
+  margin: auto;
 }
 
 /*************************
