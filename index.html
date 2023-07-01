@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Joey Marasek Design</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Google Material Icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.style.css" />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <ul>
+        <li>01.<a class="hover-animate" href="#home">top</a></li>
+        <li>02.<a class="hover-animate" href="#experience">experience</a></li>
+        <li>03.<a class="hover-animate" href="#works">works</a></li>
+        <li>04.<a class="hover-animate" href="#about">about</a></li>
+        <li>04.<a class="hover-animate" href="#contact">contact</a></li>
+      </ul>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Main -->
+    <main>
+      <!-- Start Hero -->
+      <section id="home">
+        <pre id="typewriter">
+<span class="green-highlight">var</span> object = <span class="blue-highlight">{</span>
+    name: <span class="pink-highlight">'Joey Marasek'</span>,
+    type: <span class="pink-highlight">'Designer'</span>,
+    location: <span class="pink-highlight">'Wrocław, Poland'</span>,
+    properties: <span class="blue-highlight">[</span> <span class="pink-highlight">'WordPress'</span>,
+                  <span class="pink-highlight">'Photography'</span>,
+                  <span class="pink-highlight">'Web'</span>,
+                  <span class="pink-highlight">'Art'</span>,
+                <span class="blue-highlight">]</span>;
+    <span class="blue-highlight">}</span>;
+            
+<span class="green-highlight">window</span>.scrollTo<span class="blue-highlight"> {</span><span class="pink-highlight">(</span>
+    behavior: <a class="pink-highlight hover-animate" href="#experience">"Read More"</a>, 
+<span class="pink-highlight">)</span><span class="blue-highlight">}</span></pre>
+      </section>
+      <!-- End Hero -->
+
+      <!-- Start Experience -->
+      <section id="experience">
+        <div class="tabset">
+          <!-- Tab 1 -->
+          <input
+            type="radio"
+            name="tabset"
+            id="tab1"
+            aria-controls="web"
+            checked
+          />
+          <label class="hover-animate" for="tab1">01.web</label>
+
+          <!-- Tab 2 -->
+          <input type="radio" name="tabset" id="tab2" aria-controls="photo" />
+          <label class="hover-animate" for="tab2">02.photo</label>
+
+          <!-- Tab 3 -->
+          <input
+            type="radio"
+            name="tabset"
+            id="tab3"
+            aria-controls="education"
+          />
+          <label class="hover-animate" for="tab3">03.education</label>
+
+          <div class="tab-panels">
+            <!-- Tab 1 -->
+            <div id="web" class="tab-panel">
+              <h2>01.web_creator</h2>
+              <h3>2012 - present</h3>
+              <h4>Thailand | Ukraine | Poland</h4>
+              <p>
+                I started with WordPress and web design in 2014, working on my
+                personal photography website and for the NGOs I worked with in
+                Chiang Mai, Thailand. Since then, I have built countless using
+                WordPress for myself, friends, and clients, going from simple
+                pre-built sites to completely custom sites and custom themes.
+              </p>
+
+              <div class="skillbar-wrapper">
+                <div class="skillbar clearfix skilll-green" data-percent="90%">
+                  <h4 class="skillbar-title"><span>WordPress</span></h4>
+                  <div class="skillbar-bar"></div>
+                  <div class="skill-bar-percent">90%</div>
+                </div>
+
+                <div class="skillbar clearfix skill-blue" data-percent="75%">
+                  <h4 class="skillbar-title"><span>HTML5</span></h4>
+                  <div class="skillbar-bar"></div>
+                  <div class="skill-bar-percent">75%</div>
+                </div>
+
+                <div class="skillbar clearfix skill-pink" data-percent="70%">
+                  <h4 class="skillbar-title"><span>CSS3</span></h4>
+                  <div class="skillbar-bar"></div>
+                  <div class="skill-bar-percent">70%</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab 2 -->
+            <div id="photo" class="tab-panel">
+              <h2>02.a.freelance_photographer</h2>
+              <h3>2012 - present</h3>
+              <h4>Thailand | Ukraine | Poland</h4>
+              <p>
+                As a freelance photographer, I have spent the past ten years
+                traveling throughout Asia and Europe, documenting the cultures
+                and people of these countries. Most of my work has involved
+                refugees, orphans, and minority groups in Thailand and Ukraine.
+              </p>
+              <hr />
+              <h2>02.b.project_video</h2>
+              <h3>2014 - 2015</h3>
+              <h4>Chiang Mai, Thailand</h4>
+              <p>Photographer, Videographer, Web Designer, Teacher</p>
+              <hr />
+              <h2>02.c.urban_light</h2>
+              <h3>2013 - 2014</h3>
+              <h4>Chiang Mai, Thailand</h4>
+              <p>Photographer, Teacher, Outreach Worker</p>
+              <hr />
+              <h2>02.d.documentary_arts_asia</h2>
+              <h3>2013 - 2014</h3>
+              <h4>Chiang Mai, Thailand</h4>
+              <p>Grant Writer, Web Designer, General Volunteer</p>
+              
+            </div>
+
+
+            <!-- Tab 2 -->
+            <div id="education" class="tab-panel">
+              <h2>03.a.houston_community_college</h2>
+              <h3>Audio Production | Filmmaking</h3>
+              <h4>Houston, Texas</h4>
+              <p>
+                Music Business | MIDI | Production Management | Audio
+                Engineering | Non-Linear Video Editing | TV Field Production |
+                Screenwriting for Features | Legal Aspects of the Music Industry
+                | Writing for Electronic Media
+              </p>
+              <hr />
+              <h2>03.b.marriage_of_the_arts_dts</h2>
+              <h3>Photography</h3>
+              <h4>Nuremberg, Germany | India | Sri Lanka | Nepal</h4>
+              <p>
+                Six-month course through YWAM. The first half of the course was
+                spent in Nuremberg, Germany studying how to use art in ministry.
+                The second half was spent travelling through India, Sri Lanka,
+                and Nepal using what we learned to help ministries.
+              </p>
+              <hr />
+              <h2>03.c.the_complete_web_development_bootcamp</h2>
+              <h3>Web Development</h3>
+              <h4>Udemy</h4>
+              <p>
+                HTML | CSS | Javascript
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Experience -->
+
+      <!-- Start Works -->
+      <section id="works">
+        <div class="works-row">
+          <div class="img-filter" onclick="window.open('https://ukrainianhomesteading.com', '_blank')">
+            <img
+              class="filter"
+              src="images/ukrainianhomesteading.com_.png"
+              alt=""
+            />
+          </div>
+
+          <div class="hover-reveal">
+            <h3>Ukrainian Homesteading</h3>
+            <h4>WordPress | Elementor</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              consequuntur quis molestias earum praesentium quam harum explicabo
+              quisquam est consectetur?
+            </p>
+          </div>
+        </div>
+
+        <div class="works-row">
+          <div class="img-filter" onclick="window.open('https://captivegallery.pl', '_blank')">
+            <img class="filter" src="images/captivegallery.pl_.png" alt="" />
+          </div>
+          <div class="hover-reveal">
+            <h3>Captive Gallery</h3>
+            <h4>WordPress</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              consequuntur quis molestias earum praesentium quam harum explicabo
+              quisquam est consectetur?
+            </p>
+          </div>
+        </div>
+
+        <div class="works-row">
+            <div class="img-filter" onclick="window.open('https://rabeloart.com', '_blank')">
+              <img class="filter" src="images/rabeloart.com_.png" alt="" />
+            </div>
+            <div class="hover-reveal">
+              <h3>Ricky Rabelo Art</h3>
+              <h4>WordPress</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                consequuntur quis molestias earum praesentium quam harum explicabo
+                quisquam est consectetur?
+              </p>
+            </div>
+          </div>
+
+          <div class="works-row">
+            <div class="img-filter" onclick="window.open('https://englishsuperstars.pl', '_blank')">
+              <img class="filter" src="images/englishsuperstars.pl_ .png" alt="" />
+            </div>
+            <div class="hover-reveal">
+              <h3>English SuperStars</h3>
+              <h4>WordPress</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                consequuntur quis molestias earum praesentium quam harum explicabo
+                quisquam est consectetur?
+              </p>
+            </div>
+          </div>
+
+          <div class="works-row">
+            <div class="img-filter" onclick="window.open('https://joeymarasek.photo', '_blank')">
+              <img class="filter" src="images/joeymarasek.photo_.png" alt="" />
+            </div>
+            <div class="hover-reveal">
+              <h3>Joey Marasek Photo</h3>
+              <h4>WordPress</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                consequuntur quis molestias earum praesentium quam harum explicabo
+                quisquam est consectetur?
+              </p>
+            </div>
+          </div>
+
+      </section>
+      <!-- End Works -->
+
+      <!-- Start Works -->
+      <section id="about"></section>
+      <!-- End Works -->
+
+      <!-- Start Contact -->
+      <section id="contact">
+        <form action="#">
+          <div class="form-row">
+            <label for="first-name">First Name:</label>
+            <input
+              type="text"
+              id="first-name"
+              autocomplete="given-name"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" autocomplete="family-name" />
+          </div>
+          <div class="form-row">
+            <label for="email">Email:</label>
+            <input type="email" id="email" autocomplete="email" required />
+          </div>
+          <div class="form-row">
+            <label for="website">Website:</label>
+            <input type="url" id="website" autocomplete="url" />
+          </div>
+          <div class="form-row">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" autocomplete="off" />
+          </div>
+          <div class="form-row">
+            <label for="message">Message:</label>
+            <textarea
+              rows="8"
+              cols="80"
+              id="message"
+              autocomplete="off"
+              required
+            >
+            </textarea>
+          </div>
+          <button type="submit">
+            <span>Send</span>
+          </button>
+        </form>
+      </section>
+      <!-- End Contact -->
+    </main>
+
+    <!-- End Main -->
+
+    <!-- Start Footer -->
+
+    <!-- End Footer -->
+
+    <!-- Custom Scripts -->
+
+    <script src="main.js"></script>
+  </body>
+</html>

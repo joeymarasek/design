@@ -1,0 +1,47 @@
+/********************
+    NOTEBOOK
+********************/
+
+@media only screen and (max-width: 1920px) {
+    
+    section {
+        padding-top: 4%;
+    }
+
+}
+
+/********************
+  TABLET
+********************/
+
+@media only screen and (max-width: 912px) {
+
+    section {
+        padding-top: 10%;
+    }
+
+    #typewriter {
+        font-size: 36px;
+    }
+
+    .works-row {
+        flex-direction: column;
+    }
+
+  }
+  
+  /********************
+      MOBILE
+  ********************/
+  
+  @media only screen and (max-width: 414px) {
+
+    section {
+        padding-top: 20%;
+    }
+
+    #typewriter {
+        font-size: 18px;
+    }
+
+  }
