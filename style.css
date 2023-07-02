@@ -266,7 +266,7 @@ header {
   background-color: var(--dark-blue);
   border-bottom: 1px solid var(--trans-green);
   display: flex;
-  padding: 1% 5%;
+  padding: 15px 5%;
   position: sticky;
   top: 0;
   transition: 200ms;
