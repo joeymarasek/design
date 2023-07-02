@@ -508,7 +508,7 @@ input:focus-visible + label {
     Works
 *************************/
 
-.works-row {
+.projects-row {
     display: flex;
     max-width:1000px;
     padding-bottom: 2%;

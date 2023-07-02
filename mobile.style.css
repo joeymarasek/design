@@ -29,7 +29,7 @@
       position: relative;
     }
 
-    .works-row {
+    .projects-row {
         flex-direction: column;
         padding-bottom: 5%;
         width: 100%;
@@ -84,4 +84,5 @@
       margin-top: 15px;
       width: 100%;
     }
+
   }
