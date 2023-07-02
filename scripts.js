@@ -31,10 +31,10 @@ document.addEventListener('mouseup', function(){
 
 a.forEach(item => {
   item.addEventListener('mouseover', () => {
-    cursor.classList.add('hover');
+    cursor.classList.add('cursor-hover');
   });
   item.addEventListener('mouseleave', () => {
-    cursor.classList.remove('hover');
+    cursor.classList.remove('cursor-hover');
   });
 })
 
