@@ -403,7 +403,7 @@ input:focus-visible + label {
   position: absolute;
   top: 0;
   left: 0;
-  max-width: 150px;
+  max-width: 200px;
   color: #fff;
   margin: 0;
 }
