@@ -2,46 +2,81 @@
     NOTEBOOK
 ********************/
 
+/*
 @media only screen and (max-width: 1920px) {
-    
-    section {
-        padding-top: 4%;
-    }
+
+
 
 }
+*/
 
 /********************
   TABLET
 ********************/
 
 @media only screen and (max-width: 912px) {
-
-    section {
-        padding-top: 10%;
+    #heroType {
+      position: relative;
     }
-
-    #typewriter {
-        font-size: 36px;
+  
+    .tabset {
+      max-width: 100%;
+      position: relative;
     }
 
     .works-row {
         flex-direction: column;
+        padding-bottom: 5%;
+        width: 100%;
     }
 
-  }
+    .img-filter {
+        margin: 0;
+    }
+
+    .img-filter img {
+        margin: 0;
+        width: 100%;
+    }
+
+    .img-filter:before {
+        display: none;
+    }
+
+    .hover-reveal {
+        border: none;
+        margin-left: 0;
+        opacity: 1;
+        padding: 5% 0;
+        width: 100%;
+    }
   
+    footer {
+      align-items: center;
+      bottom: 1%;
+      right: 1%;
+    }
+  
+    footer ul li {
+      float: left;
+      padding-right: 3%;
+    }
+  }
   /********************
-      MOBILE
-  ********************/
+        MOBILE
+    ********************/
   
   @media only screen and (max-width: 414px) {
-
-    section {
-        padding-top: 20%;
+    header {
+      display: none;
     }
-
-    #typewriter {
-        font-size: 18px;
+  
+    .form-row {
+      flex-direction: column;
     }
-
+  
+    form label {
+      margin-top: 15px;
+      width: 100%;
+    }
   }

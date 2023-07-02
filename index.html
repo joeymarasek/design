@@ -2,9 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Web creator and WordPress developer in Wrocław, Poland."
+    />
+    <link rel="icon" href="favicon.png" />
 
-    <title>Joey Marasek Design</title>
+    <title>Joey Marasek | Design</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,52 +20,82 @@
       rel="stylesheet"
     />
 
-    <!-- Google Material Icons -->
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mobile.style.css" />
+
   </head>
   <body>
-    <!-- Start Header -->
-    <header>
-      <ul>
-        <li>01.<a class="hover-animate" href="#home">top</a></li>
-        <li>02.<a class="hover-animate" href="#experience">experience</a></li>
-        <li>03.<a class="hover-animate" href="#works">works</a></li>
-        <li>04.<a class="hover-animate" href="#about">about</a></li>
-        <li>04.<a class="hover-animate" href="#contact">contact</a></li>
-      </ul>
-    </header>
-    <!-- End Header -->
-
-    <!-- Start Main -->
     <main>
-      <!-- Start Hero -->
-      <section id="home">
-        <pre id="typewriter">
-<span class="green-highlight">var</span> object = <span class="blue-highlight">{</span>
-    name: <span class="pink-highlight">'Joey Marasek'</span>,
-    type: <span class="pink-highlight">'Designer'</span>,
-    location: <span class="pink-highlight">'Wrocław, Poland'</span>,
-    properties: <span class="blue-highlight">[</span> <span class="pink-highlight">'WordPress'</span>,
-                  <span class="pink-highlight">'Photography'</span>,
-                  <span class="pink-highlight">'Web'</span>,
-                  <span class="pink-highlight">'Art'</span>,
-                <span class="blue-highlight">]</span>;
-    <span class="blue-highlight">}</span>;
-            
-<span class="green-highlight">window</span>.scrollTo<span class="blue-highlight"> {</span><span class="pink-highlight">(</span>
-    behavior: <a class="pink-highlight hover-animate" href="#experience">"Read More"</a>, 
-<span class="pink-highlight">)</span><span class="blue-highlight">}</span></pre>
+      
+      <section id="top">
+        <span id="heroType">
+          <span class="green">var </span>object = <span class="blue">{</span>
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;name: <span class="pink">'Joey Marasek'</span>
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;type:
+          <span class="pink">'Web Creator'</span>,<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;location:
+          <span class="pink">'Wrocław, Poland'</span>,<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;properties: <span class="blue">[</span>
+          <span class="pink">'WordPress'</span>,<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+            class="pink"
+            >'Photography'</span
+          >,<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+            class="pink"
+            >'Web'</span
+          >,<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+            class="pink"
+            >'Art'</span
+          >,<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+            class="blue"
+            >]</span
+          >;<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">}</span>;
+          <br />
+          <span class="green">window</span>.scrollTo <span class="blue">{</span
+          ><span class="pink">(</span><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;behavior:
+          <a href="#experience" class="hover">'Read More'</a>,<br />
+          <span class="pink">)</span><span class="blue">}</span><br />
+        </span>
       </section>
-      <!-- End Hero -->
 
-      <!-- Start Experience -->
+      <header id="header">
+        <ul>
+          <li>
+            <a class="hover" href="#top">top</a>
+          </li>
+          <li>
+            <a class="hover menu-link" href="#experience">experience</a>
+          </li>
+          <li>
+            <a class="hover menu-link" href="#works">works</a>
+          </li>
+          <li>
+            <a class="hover menu-link" href="#about">about</a>
+          </li>
+          <li>
+            <a class="hover menu-link" href="#contact">contact</a>
+          </li>
+        </ul>
+      </header>
+
+
       <section id="experience">
         <div class="tabset">
           <!-- Tab 1 -->
@@ -135,17 +171,32 @@
               <h2>02.b.project_video</h2>
               <h3>2014 - 2015</h3>
               <h4>Chiang Mai, Thailand</h4>
-              <p>Photographer, Videographer, Web Designer, Teacher</p>
+              <ul>
+                <li>Photographer</li>
+                <li>Videographer</li>
+                <li>Web Designer</li>
+                <li>Teacher</li>
+              </ul>
+
               <hr />
               <h2>02.c.urban_light</h2>
               <h3>2013 - 2014</h3>
               <h4>Chiang Mai, Thailand</h4>
-              <p>Photographer, Teacher, Outreach Worker</p>
+              <ul>
+                <li>Photographer</li>
+                <li>Teacher</li>
+                <li>Outreach Worker</li>
+              </ul>
+
               <hr />
               <h2>02.d.documentary_arts_asia</h2>
               <h3>2013 - 2014</h3>
               <h4>Chiang Mai, Thailand</h4>
-              <p>Grant Writer, Web Designer, General Volunteer</p>
+              <ul>
+                <li>Grant Writer</li>
+                <li>Web Designer</li>
+                <li>General Volunteer</li>
+              </ul>
             </div>
 
             <!-- Tab 2 -->
@@ -168,14 +219,14 @@
               <h2>03.b.marriage_of_the_arts_dts</h2>
               <h3>Photography</h3>
               <h4>Nuremberg, Germany | India | Sri Lanka | Nepal</h4>
-              <p>
-                Six-month course through YWAM. The first half of the course was
-                spent in Nuremberg, Germany studying how to use art in ministry.
-                The second half was spent travelling through India, Sri Lanka,
-                and Nepal using what we learned to help ministries.
-              </p>
+              <ul>
+                <li>Studio Lighting</li>
+                <li>Advanced Photo Techniques</li>
+                <li>Advanced Film Photography</li>
+                <li>Documentary Photography</li>
+              </ul>
               <hr />
-              <h2>03.c.the_complete_2023_web_development_bootcamp</h2>
+              <h2>03.c.complete_web_development_bootcamp</h2>
               <h3>Web Development</h3>
               <h4>Udemy</h4>
               <ul>
@@ -187,9 +238,7 @@
           </div>
         </div>
       </section>
-      <!-- End Experience -->
 
-      <!-- Start Works -->
       <section id="works">
         <div class="works-row">
           <div
@@ -198,7 +247,7 @@
           >
             <img
               class="filter"
-              src="images/ukrainianhomesteading.com_.png"
+              src="images/ukrainianhomesteading.jpg"
               alt=""
             />
           </div>
@@ -207,9 +256,7 @@
             <h3>Ukrainian Homesteading</h3>
             <h4>WordPress | Elementor</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              consequuntur quis molestias earum praesentium quam harum explicabo
-              quisquam est consectetur?
+              A food and recipe blog previously based in Ukraine with dynamic templates and easy-to-use recipes.
             </p>
           </div>
         </div>
@@ -219,7 +266,7 @@
             class="img-filter"
             onclick="window.open('https://captivegallery.pl', '_blank')"
           >
-            <img class="filter" src="images/captivegallery.pl_.png" alt="" />
+            <img class="filter" src="images/captivegallery.jpg" alt="" />
           </div>
           <div class="hover-reveal">
             <h3>Captive Gallery</h3>
@@ -237,15 +284,13 @@
             class="img-filter"
             onclick="window.open('https://rabeloart.com', '_blank')"
           >
-            <img class="filter" src="images/rabeloart.com_.png" alt="" />
+            <img class="filter" src="images/rabeloart.jpg" alt="" />
           </div>
           <div class="hover-reveal">
             <h3>Ricky Rabelo Art</h3>
-            <h4>WordPress</h4>
+            <h4>WordPress | Custom Theme | ACF</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              consequuntur quis molestias earum praesentium quam harum explicabo
-              quisquam est consectetur?
+              A basic photography portfolio with beautiful full-screen portfolio galleries and a simple vertical collapsable header.
             </p>
           </div>
         </div>
@@ -257,7 +302,7 @@
           >
             <img
               class="filter"
-              src="images/englishsuperstars.pl_ .png"
+              src="images/englishsuperstars.jpg"
               alt=""
             />
           </div>
@@ -265,9 +310,7 @@
             <h3>English SuperStars</h3>
             <h4>WordPress</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              consequuntur quis molestias earum praesentium quam harum explicabo
-              quisquam est consectetur?
+              English language tutors based in Wrocław, Poland. a simple site but packed full of information in an easy-to-use layout and minimal clutter.
             </p>
           </div>
         </div>
@@ -277,26 +320,20 @@
             class="img-filter"
             onclick="window.open('https://joeymarasek.photo', '_blank')"
           >
-            <img class="filter" src="images/joeymarasek.photo_.png" alt="" />
+            <img class="filter" src="images/joeymarasek.jpg" alt="" />
           </div>
           <div class="hover-reveal">
             <h3>Joey Marasek Photo</h3>
             <h4>WordPress</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              consequuntur quis molestias earum praesentium quam harum explicabo
-              quisquam est consectetur?
+              A basic photography portfolio with beautiful full-screen portfolio galleries and a simple vertical collapsable header.
             </p>
           </div>
         </div>
       </section>
-      <!-- End Works -->
 
-      <!-- Start Works -->
       <section id="about"></section>
-      <!-- End Works -->
 
-      <!-- Start Contact -->
       <section id="contact">
         <form action="#">
           <div class="form-row">
@@ -340,17 +377,32 @@
           </button>
         </form>
       </section>
-      <!-- End Contact -->
     </main>
 
-    <!-- End Main -->
+    <footer>
+      <ul>
+        <li>
+          <i class="fa-brands fa-facebook-f"></i>
+        </li>
+        <li>
+          <i class="fa-brands fa-instagram"></i>
+        </li>
+        <li>
+          <i class="fa-brands fa-twitter"></i>
+        </li>
+        <li>
+          <i class="fa-brands fa-linkedin-in"></i>
+        </li>
+        <li>
+          <i class="fa-brands fa-github"></i>
+        </li>
+      </ul>
+    </footer>
 
-    <!-- Start Footer -->
-
-    <!-- End Footer -->
+    <!-- TypeIt -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
 
     <!-- Custom Scripts -->
-
-    <script src="main.js"></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
