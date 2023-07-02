@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap"
       rel="stylesheet"
     />
 
@@ -106,11 +106,11 @@
             aria-controls="web"
             checked
           />
-          <label class="hover-animate" for="tab1">01.web</label>
+          <label class="hover" for="tab1">01.web</label>
 
           <!-- Tab 2 -->
           <input type="radio" name="tabset" id="tab2" aria-controls="photo" />
-          <label class="hover-animate" for="tab2">02.photo</label>
+          <label class="hover" for="tab2">02.photo</label>
 
           <!-- Tab 3 -->
           <input
@@ -119,7 +119,7 @@
             id="tab3"
             aria-controls="education"
           />
-          <label class="hover-animate" for="tab3">03.education</label>
+          <label class="hover" for="tab3">03.education</label>
 
           <div class="tab-panels">
             <!-- Tab 1 -->
@@ -339,22 +339,13 @@
           method="POST"
         >
           <div class="form-row">
-            <label for="first-name">First Name:</label>
+            <label for="name">Name:</label>
             <input
               type="text"
-              id="first-name"
-              name="first-name"
-              autocomplete="given-name"
+              id="name"
+              name="name"
+              autocomplete="name"
               required
-            />
-          </div>
-          <div class="form-row">
-            <label for="last-name">Last Name:</label>
-            <input 
-              type="text" 
-              id="last-name"
-              name="last-name" 
-              autocomplete="family-name" 
             />
           </div>
           <div class="form-row">
@@ -367,14 +358,6 @@
               required 
             />
           </div>
-          <div class="form-row">
-            <label for="website">Website:</label>
-            <input 
-              type="url" 
-              id="website"
-              name="website" 
-              autocomplete="url" 
-            />
           </div>
           <div class="form-row">
             <label for="subject">Subject:</label>
