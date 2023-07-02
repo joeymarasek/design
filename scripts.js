@@ -29,13 +29,13 @@ document.addEventListener("mouseup", function () {
   cursorinner.classList.remove("cursorinnerhover");
 });
 
-forEach((item) => {
+a.forEach((item) => {
   item.addEventListener("mouseover", () => {
-    cursor.classList.add("hover");
+    cursor.classList.add("cursorHover");
     cursorinner.classList.add("cursorinnerhover");
   });
   item.addEventListener("mouseleave", () => {
-    cursor.classList.remove("hover");
+    cursor.classList.remove("cursorHover");
     cursorinner.classList.remove("cursorinnerhover");
   });
 });
