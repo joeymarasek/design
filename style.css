@@ -422,89 +422,6 @@ input:focus-visible + label {
   padding-left: 5%;
 }
 
-/** Skills Bar **/
-
-.skillbar-wrapper {
-  margin: 0;
-  max-width: 1000px;
-  padding-top: 3%;
-}
-
-.skillbar {
-  position: relative;
-  margin-bottom: 15px;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.1);
-  height: 35px;
-  margin-bottom: 1.5em;
-}
-
-.skillbar:last-child {
-  margin-bottom: 0;
-}
-
-.skillbar-title {
-  position: absolute;
-  top: 0;
-  left: 0;
-  max-width: 200px;
-  color: #fff;
-  margin: 0;
-}
-
-.skillbar-title span {
-  display: block;
-  padding: 0 20px;
-  height: 35px;
-  line-height: 35px;
-}
-
-.skillbar-bar {
-  height: 35px;
-  width: 0%;
-  transition: 500ms linear;
-  transition-property: width, background-color;
-}
-
-.skill-bar-percent {
-  font-weight: 400;
-  position: absolute;
-  right: 10px;
-  top: 0;
-  height: 35px;
-  line-height: 35px;
-  color: var(--dark-blue);
-  transition: color 500ms ease-out;
-}
-
-.complete .skill-bar-percent {
-  color: var(--light-grey);
-}
-
-.skilll-green .skillbar-title {
-  background: var(--green);
-}
-
-.skilll-green .skillbar-bar {
-  background: var(--trans-green);
-}
-
-.skill-blue .skillbar-title {
-  background: var(--light-blue);
-}
-
-.skill-blue .skillbar-bar {
-  background: var(--trans-blue);
-}
-
-.skill-pink .skillbar-title {
-  background: var(--pink);
-}
-
-.skill-pink .skillbar-bar {
-  background: var(--trans-pink);
-}
-
 /*************************
     Works
 *************************/
@@ -590,6 +507,89 @@ input:focus-visible + label {
 
 #about p {
   max-width: 1000px;
+}
+
+/** Skills Bar **/
+
+.skillbar-wrapper {
+  margin: 0;
+  max-width: 1000px;
+  padding-top: 3%;
+}
+
+.skillbar {
+  position: relative;
+  margin-bottom: 15px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  height: 35px;
+  margin-bottom: 1.5em;
+}
+
+.skillbar:last-child {
+  margin-bottom: 0;
+}
+
+.skillbar-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 200px;
+  color: #fff;
+  margin: 0;
+}
+
+.skillbar-title span {
+  display: block;
+  padding: 0 20px;
+  height: 35px;
+  line-height: 35px;
+}
+
+.skillbar-bar {
+  height: 35px;
+  width: 0%;
+  transition: 500ms linear;
+  transition-property: width, background-color;
+}
+
+.skill-bar-percent {
+  font-weight: 400;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  height: 35px;
+  line-height: 35px;
+  color: var(--dark-blue);
+  transition: color 500ms ease-out;
+}
+
+.complete .skill-bar-percent {
+  color: var(--light-grey);
+}
+
+.skilll-green .skillbar-title {
+  background: var(--green);
+}
+
+.skilll-green .skillbar-bar {
+  background: var(--trans-green);
+}
+
+.skill-blue .skillbar-title {
+  background: var(--light-blue);
+}
+
+.skill-blue .skillbar-bar {
+  background: var(--trans-blue);
+}
+
+.skill-pink .skillbar-title {
+  background: var(--pink);
+}
+
+.skill-pink .skillbar-bar {
+  background: var(--trans-pink);
 }
 
 /*************************
