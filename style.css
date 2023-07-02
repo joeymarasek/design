@@ -158,6 +158,10 @@ h4 {
   margin-bottom: 0.67em;
 }
 
+h1 {
+  font-size: 50px;
+}
+
 h2 {
   font-size: clamp(1.625rem, 1.5682rem + 0.2841vw, 2.25rem);
 }
@@ -514,7 +518,6 @@ input:focus-visible + label {
 .skillbar-wrapper {
   margin: 0;
   max-width: 1000px;
-  padding-top: 3%;
 }
 
 .skillbar {
