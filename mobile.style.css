@@ -85,4 +85,12 @@
       width: 100%;
     }
 
+    footer {
+      align-items: center;
+      display: flex;
+      min-height: 150px;
+      padding: 5%;
+      position: relative;
+    }
+
   }
